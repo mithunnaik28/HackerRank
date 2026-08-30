@@ -7,5 +7,9 @@ runner_up=None
 for i in arr:
     if ((runner_up is None or i > runner_up) and i!=max1):
         runner_up=i
-        
+# or 
+# remove_duplicate = list(set(arr))
+# runner_up = remove_duplicate.sort()
+# print(runner_up[-2])
+
 print(runner_up)
